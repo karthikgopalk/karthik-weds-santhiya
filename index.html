@@ -16,16 +16,17 @@
          WhatsApp builds its preview from og:* only — it does not read the
          meta description above, and it will not invent a thumbnail. Without
          these the link arrives as a bare grey URL.
-         og:image must be a raster at an absolute-ish path; SVG is rejected by
+         og:image must be a raster at an absolute URL; SVG is rejected by
          every major scraper, which is why /og-image.jpg exists alongside the
          SVG favicon. 1200x630 is the aspect ratio WhatsApp/Facebook crop to.
-         og:url is deliberately omitted — it has to be the real deployed URL,
-         and a wrong one is worse than none. Add it at deploy time. -->
+         The canonical production URL is written here so link-preview bots
+         can resolve both the page and its thumbnail reliably. -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://karthik-weds-santhiya.vercel.app/" />
     <meta property="og:site_name" content="Karthik weds Santhiya" />
     <meta property="og:title" content="Karthik weds Santhiya — 25 October 2026" />
     <meta property="og:description" content="We're getting married! 💍 Tap to view our wedding invitation. We can't wait to celebrate with you!" />
-    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:image" content="https://karthik-weds-santhiya.vercel.app/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Karthik and Santhiya, 25 October 2026, T.M.A Marriage Hall, Thirukarakavur" />
@@ -33,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Karthik weds Santhiya — 25 October 2026" />
     <meta name="twitter:description" content="We're getting married! 💍 Tap to view our wedding invitation." />
-    <meta name="twitter:image" content="/og-image.jpg" />
+    <meta name="twitter:image" content="https://karthik-weds-santhiya.vercel.app/og-image.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Catamaran carries the Tamil glyph coverage none of the other families
