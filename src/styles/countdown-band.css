@@ -11,6 +11,7 @@
 .cdb {
     --cdb-maroon: rgb(88, 11, 26);
     --cdb-cream: rgb(247, 240, 232);
+    --cdb-gold: rgb(215, 162, 42);
 
     box-sizing: border-box;
     width: 100%;
@@ -31,12 +32,56 @@
 }
 
 .cdb-heading {
-    margin: 0 0 clamp(30px, 5vw, 56px);
-    font-family: "Instrument Serif", serif;
+    margin: 0 0 clamp(16px, 2.5vw, 26px);
+    font-family: "Instrument Serif", "Abhaya Libre", "EB Garamond", serif;
     font-weight: 400;
     font-size: clamp(32px, 5.6vw, 64px);
     line-height: 1.1;
     letter-spacing: .01em;
+}
+
+.cdb-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cdb-gold);
+    opacity: .88;
+}
+
+.cdb-divider svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cdb-lotus-divider {
+    max-width: clamp(320px, 60vw, 540px);
+    margin: 0 auto clamp(16px, 2.4vw, 24px);
+}
+
+.cdb-shloka {
+    max-width: 680px;
+    margin: 0 auto clamp(16px, 2.4vw, 24px);
+    font-family: "Instrument Serif", "Abhaya Libre", "EB Garamond", serif;
+    font-weight: 400;
+    font-size: clamp(16px, 2.5vw, 24px);
+    line-height: 1.55;
+    letter-spacing: .02em;
+    color: var(--cdb-cream);
+    opacity: .92;
+}
+
+.cdb-shloka-line {
+    margin: 0;
+}
+
+.cdb-shloka-emphasis {
+    font-style: italic;
+}
+
+.cdb-flourish-divider {
+    max-width: clamp(220px, 42vw, 380px);
+    margin: 0 auto clamp(30px, 4.8vw, 52px);
 }
 
 .cdb-units {

@@ -24,6 +24,8 @@ export const BRIDE_NAME_TITLE = 'Santhiya';
 export const GROOM_NAME_TITLE = 'Karthik';
 export const BRIDE_NAME = BRIDE_NAME_TITLE.toUpperCase();
 export const GROOM_NAME = GROOM_NAME_TITLE.toUpperCase();
+export const BRIDE_NAME_TAMIL = 'சந்தியா';
+export const GROOM_NAME_TAMIL = 'கார்த்திக்';
 export const COUPLE_AMPERSAND = '&';
 // Groom first, matching the project name and the page title
 // ("Karthik weds Santhiya") and the hero, which stacks KARTHIK above
@@ -395,7 +397,10 @@ export const COUNTDOWN_SEPARATOR = ':';
 
 // Standalone countdown band shown after the last page.
 export const COUNTDOWN_EYEBROW = 'Every moment brings us closer';
-export const COUNTDOWN_HEADING = 'Until we say “I do”';
+export const COUNTDOWN_HEADING = 'Until the Māṅgalya is tied';
+export const COUNTDOWN_SHLOKA_LINE1 = 'Mangalyam tantunanena mama jivana hetuna,';
+export const COUNTDOWN_SHLOKA_LINE2_EMPHASIS = 'Kanthe';
+export const COUNTDOWN_SHLOKA_LINE2_REST = 'badhnami subhage tvam jiva saradah satam,';
 export const COUNTDOWN_FOOTNOTE = `${WEDDING_DATE_DISPLAY} · ${WEDDING_TIME_DISPLAY} IST`;
 
 // Closing monogram at the very foot of the page — the couple's initials with

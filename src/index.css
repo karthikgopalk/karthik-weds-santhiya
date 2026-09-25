@@ -15,3 +15,9 @@ body {
   min-height: 100vh;
   width: auto;
 }
+
+.kavivanar-regular {
+  font-family: "Kavivanar", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

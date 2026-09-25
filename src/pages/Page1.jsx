@@ -4,7 +4,7 @@ import Reveal from '../components/Reveal';
 import RevealLetters from '../components/RevealLetters';
 import useHeroParallax from '../components/useHeroParallax';
 import { img } from '../imageMap';
-import { WedsMark, BRIDE_NAME, GROOM_NAME } from '../content';
+import { WedsMark, BRIDE_NAME_TAMIL, GROOM_NAME_TAMIL } from '../content';
 
 const skySrc = img('xZKlIX9XaacbmAvyKmu8rqVXE');
 const templeSrc = img('J6YiMAQTDPTAlfG2On7An1Q5lB4');
@@ -73,18 +73,19 @@ export default function Page1() {
           >
             <p
               dir="auto"
-              className="framer-text"
+              className="framer-text kavivanar-regular"
               style={{
-                fontFamily: '"Asul", serif',
+                fontFamily: '"Kavivanar", cursive',
+                fontWeight: 400,
+                fontStyle: 'normal',
                 fontSize: 133,
                 lineHeight: '129px',
                 textAlign: 'center',
                 color: 'rgb(255, 255, 255)',
-                textTransform: 'uppercase',
                 margin: 0,
               }}
             >
-              <RevealLetters text={BRIDE_NAME} single />
+              <RevealLetters text={BRIDE_NAME_TAMIL} single />
             </p>
           </div>
         </BreakpointVariant>
@@ -98,18 +99,19 @@ export default function Page1() {
           >
             <p
               dir="auto"
-              className="framer-text"
+              className="framer-text kavivanar-regular"
               style={{
-                fontFamily: '"Asul", serif',
+                fontFamily: '"Kavivanar", cursive',
+                fontWeight: 400,
+                fontStyle: 'normal',
                 fontSize: 45,
                 lineHeight: '129px',
                 textAlign: 'center',
                 color: 'rgb(255, 255, 255)',
-                textTransform: 'uppercase',
                 margin: 0,
               }}
             >
-              <RevealLetters text={BRIDE_NAME} single />
+              <RevealLetters text={BRIDE_NAME_TAMIL} single />
             </p>
           </div>
         </BreakpointVariant>
@@ -123,18 +125,19 @@ export default function Page1() {
           >
             <p
               dir="auto"
-              className="framer-text"
+              className="framer-text kavivanar-regular"
               style={{
-                fontFamily: '"Asul", serif',
+                fontFamily: '"Kavivanar", cursive',
+                fontWeight: 400,
+                fontStyle: 'normal',
                 fontSize: 100,
                 lineHeight: '129px',
                 textAlign: 'center',
                 color: 'rgb(255, 255, 255)',
-                textTransform: 'uppercase',
                 margin: 0,
               }}
             >
-              <RevealLetters text={BRIDE_NAME} single />
+              <RevealLetters text={BRIDE_NAME_TAMIL} single />
             </p>
           </div>
         </BreakpointVariant>
@@ -154,18 +157,19 @@ export default function Page1() {
           >
             <p
               dir="auto"
-              className="framer-text"
+              className="framer-text kavivanar-regular"
               style={{
-                fontFamily: '"Asul", serif',
+                fontFamily: '"Kavivanar", cursive',
+                fontWeight: 400,
+                fontStyle: 'normal',
                 fontSize: 133,
                 lineHeight: '129px',
                 textAlign: 'center',
                 color: 'rgb(255, 255, 255)',
-                textTransform: 'uppercase',
                 margin: 0,
               }}
             >
-              <RevealLetters text={GROOM_NAME} single />
+              <RevealLetters text={GROOM_NAME_TAMIL} single />
             </p>
           </div>
         </BreakpointVariant>
@@ -179,18 +183,19 @@ export default function Page1() {
           >
             <p
               dir="auto"
-              className="framer-text"
+              className="framer-text kavivanar-regular"
               style={{
-                fontFamily: '"Asul", serif',
+                fontFamily: '"Kavivanar", cursive',
+                fontWeight: 400,
+                fontStyle: 'normal',
                 fontSize: 45,
                 lineHeight: '129px',
                 textAlign: 'center',
                 color: 'rgb(255, 255, 255)',
-                textTransform: 'uppercase',
                 margin: 0,
               }}
             >
-              <RevealLetters text={GROOM_NAME} single />
+              <RevealLetters text={GROOM_NAME_TAMIL} single />
             </p>
           </div>
         </BreakpointVariant>
@@ -204,18 +209,19 @@ export default function Page1() {
           >
             <p
               dir="auto"
-              className="framer-text"
+              className="framer-text kavivanar-regular"
               style={{
-                fontFamily: '"Asul", serif',
+                fontFamily: '"Kavivanar", cursive',
+                fontWeight: 400,
+                fontStyle: 'normal',
                 fontSize: 100,
                 lineHeight: '129px',
                 textAlign: 'center',
                 color: 'rgb(255, 255, 255)',
-                textTransform: 'uppercase',
                 margin: 0,
               }}
             >
-              <RevealLetters text={GROOM_NAME} single />
+              <RevealLetters text={GROOM_NAME_TAMIL} single />
             </p>
           </div>
         </BreakpointVariant>
