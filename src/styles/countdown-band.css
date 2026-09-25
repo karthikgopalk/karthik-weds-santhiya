@@ -62,10 +62,10 @@
 .cdb-shloka {
     max-width: 680px;
     margin: 0 auto clamp(16px, 2.4vw, 24px);
-    font-family: "Instrument Serif", "Abhaya Libre", "EB Garamond", serif;
+    font-family: "Catamaran", "Instrument Serif", "Abhaya Libre", "EB Garamond", serif;
     font-weight: 400;
-    font-size: clamp(16px, 2.5vw, 24px);
-    line-height: 1.55;
+    font-size: clamp(16px, 2.2vw, 22px);
+    line-height: 1.65;
     letter-spacing: .02em;
     color: var(--cdb-cream);
     opacity: .92;
@@ -73,10 +73,6 @@
 
 .cdb-shloka-line {
     margin: 0;
-}
-
-.cdb-shloka-emphasis {
-    font-style: italic;
 }
 
 .cdb-flourish-divider {

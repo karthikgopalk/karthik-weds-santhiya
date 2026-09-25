@@ -4,8 +4,7 @@ import {
   COUNTDOWN_EYEBROW,
   COUNTDOWN_HEADING,
   COUNTDOWN_SHLOKA_LINE1,
-  COUNTDOWN_SHLOKA_LINE2_EMPHASIS,
-  COUNTDOWN_SHLOKA_LINE2_REST,
+  COUNTDOWN_SHLOKA_LINE2,
   COUNTDOWN_FOOTNOTE,
   COUNTDOWN_UNIT_LABELS_LONG,
   MONOGRAM_INITIALS,
@@ -98,10 +97,7 @@ export default function CountdownBand() {
 
       <div className="cdb-shloka">
         <p className="cdb-shloka-line">{COUNTDOWN_SHLOKA_LINE1}</p>
-        <p className="cdb-shloka-line">
-          <em className="cdb-shloka-emphasis">{COUNTDOWN_SHLOKA_LINE2_EMPHASIS}</em>{' '}
-          {COUNTDOWN_SHLOKA_LINE2_REST}
-        </p>
+        <p className="cdb-shloka-line">{COUNTDOWN_SHLOKA_LINE2}</p>
       </div>
 
       <FlourishDivider />

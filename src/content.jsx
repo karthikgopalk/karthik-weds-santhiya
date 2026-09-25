@@ -398,9 +398,10 @@ export const COUNTDOWN_SEPARATOR = ':';
 // Standalone countdown band shown after the last page.
 export const COUNTDOWN_EYEBROW = 'Every moment brings us closer';
 export const COUNTDOWN_HEADING = 'Until the Māṅgalya is tied';
-export const COUNTDOWN_SHLOKA_LINE1 = 'Mangalyam tantunanena mama jivana hetuna,';
-export const COUNTDOWN_SHLOKA_LINE2_EMPHASIS = 'Kanthe';
-export const COUNTDOWN_SHLOKA_LINE2_REST = 'badhnami subhage tvam jiva saradah satam,';
+export const COUNTDOWN_SHLOKA_LINE1 = 'மாங்கல்யம் தந்துநானேன மம ஜீவன ஹேதுநா,';
+export const COUNTDOWN_SHLOKA_LINE2 = 'கண்டே பத்நாமி சுபகே த்வம் ஜீவ சரதஃ சதம்.';
+export const COUNTDOWN_SHLOKA_LINE2_EMPHASIS = 'கண்டே';
+export const COUNTDOWN_SHLOKA_LINE2_REST = 'பத்நாமி சுபகே த்வம் ஜீவ சரதஃ சதம்.';
 export const COUNTDOWN_FOOTNOTE = `${WEDDING_DATE_DISPLAY} · ${WEDDING_TIME_DISPLAY} IST`;
 
 // Closing monogram at the very foot of the page — the couple's initials with

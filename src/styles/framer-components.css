@@ -273,10 +273,10 @@ html,body,#main {
                    inked name height, which is the value that read best
                    against the 133px names. Wider tiers are in the two media
                    queries below; this base value is the <810px case. */
-                width: 71px;
+                 width: 71px;
                 height: auto;
                 position: absolute;
-                top: 17%;
+                top: 18%;
                 left: 50%;
                 transform: translate(-50%,-50%)
             }
@@ -289,12 +289,16 @@ html,body,#main {
             @media (min-width: 810px) and (max-width: 1199.98px) {
                 .framer-m7ulU .framer-1pwvksq {
                     width: 158px;
+                    top: 18%;
+                    left: 50%;
                 }
             }
 
             @media (min-width: 1200px) {
                 .framer-m7ulU .framer-1pwvksq {
-                    width: 209px;
+                    width: 180px;
+                    top: 18%;
+                    left: 50%;
                 }
             }
 
@@ -307,8 +311,8 @@ html,body,#main {
                 width: 656px;
                 height: auto;
                 position: absolute;
-                top: 22%;
-                left: 51%;
+                top: 23%;
+                left: 50%;
                 transform: translate(-50%,-50%)
             }
 
@@ -322,7 +326,7 @@ html,body,#main {
                 height: auto;
                 position: absolute;
                 top: 49%;
-                left: 51%;
+                left: 50%;
                 transform: translate(-50%,-50%)
             }
 
@@ -335,7 +339,7 @@ html,body,#main {
                 width: 707px;
                 height: auto;
                 position: absolute;
-                top: 13%;
+                top: 12.5%;
                 left: 50%;
                 transform: translate(-50%,-50%)
             }
@@ -1252,7 +1256,7 @@ html,body,#main {
 
                 .framer-m7ulU .framer-1jgx9kw {
                     top: 23%;
-                    left: 51%
+                    left: 50%
                 }
 
                 .framer-m7ulU .framer-qqlkw5 {
@@ -1424,21 +1428,22 @@ html,body,#main {
 
                 .framer-m7ulU .framer-1pwvksq {
                     top: 19%;
-                    left: 50%
+                    left: 50%;
+                    width: 88px;
                 }
 
                 .framer-m7ulU .framer-1jgx9kw {
-                    top: 24%;
-                    left: 51%
+                    top: 24.5%;
+                    left: 50%
                 }
 
                 .framer-m7ulU .framer-64h8lc {
                     top: 29%;
-                    left: 51%
+                    left: 50%
                 }
 
                 .framer-m7ulU .framer-qqlkw5 {
-                    top: 14%;
+                    top: 11.5%;
                     left: 50%
                 }
 
